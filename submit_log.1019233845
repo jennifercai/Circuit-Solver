@@ -1,0 +1,46 @@
+Submitting assignment 3 from p2.ecf.utoronto.ca
+Checking for the expected files in the current directory
+Main.cpp Rparser.cpp Rparser.h Resistor.h Resistor.cpp Node.h Node.cpp
+Attempting to build your code.  Make output follows:
+==================================================================
+g++ -c Main.cpp
+g++ -c Rparser.cpp
+g++ -c Resistor.cpp
+g++ -c Node.cpp
+scl enable devtoolset-2 'g++ Main.o Rparser.o Resistor.o Node.o -o rnet'
+------------------------------------------------------------------
+The build appears to have been successful
+
+Running exercise on the produced executable 'rnet'
+############### Testcase 1 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 2 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 3 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+################# Summary for 3 test(s) #####################
+Functionality: PASS: All tests passed
+Valgrind:      PASS: No memory leaks detected
+
+The required files passed exercise
+
+Submitting files
+
+Verifying submission
+submitece244f -l 3
+total 36
+-rw-r----- 1 submit ece244f  3486 Oct 19 23:38 Main.cpp
+-rw-r----- 1 submit ece244f  1195 Oct 19 23:38 Node.cpp
+-rw-r----- 1 submit ece244f  1050 Oct 19 23:38 Node.h
+-rw-r----- 1 submit ece244f   948 Oct 19 23:38 Resistor.cpp
+-rw-r----- 1 submit ece244f   938 Oct 19 23:38 Resistor.h
+-rw-r----- 1 submit ece244f 11247 Oct 19 23:38 Rparser.cpp
+-rw-r----- 1 submit ece244f  2597 Oct 19 23:38 Rparser.h
+
+All filesizes match. All timestamps match submission time.
+
+Submission was successful
+
